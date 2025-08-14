@@ -29,6 +29,7 @@ if (isNewArchitectureEnabled()) {
 }
 
 android {
+    namespace "com.github.wumke.RNExitApp"
     compileSdkVersion safeExtGet('compileSdkVersion', 23)
     buildToolsVersion safeExtGet('buildToolsVersion', "25.0.0")
 
